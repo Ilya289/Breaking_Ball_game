@@ -151,7 +151,7 @@ function fallOff() {
 
 function endGame() {
     gameover.style.display = "block";
-    gameover.innerHTML = "Game Over<br>Your score is " + player.score;
+    gameover.innerHTML = "Game Over<br>Your score is " + player.score + ".<br>Press here to restart.";
     player.gameover = true;
     ball.style.display = "none";
     let tempBricks = document.querySelectorAll('.brick');
